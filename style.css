@@ -1,0 +1,90 @@
+body {
+   background-color: burlywood;
+    color: rgb(0, 0, 0);
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+h1 {
+    font-size: 52px;
+}
+
+p {
+    font-size: 25px;
+}
+
+h2 {
+    font-size: 42px;
+}
+
+li {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 52px;
+}
+
+img {
+    border-radius: 200px;
+}
+
+.photo-frame {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  overflow: hidden;
+  border: 2px solid burlywood; /* just to confirm it matches */
+}
+
+h4 {
+    font-size: 52px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 200px;
+    max-width: 80%;
+    height: auto;
+}
+
+@keyframes color-change {
+  0%   { color: rgb(19, 19, 24);
+background-color: rgb(224, 135, 76); }
+  25%  { color: rgb(7, 2, 10);
+background-color: rgb(219, 152, 51); }
+  50% { color: rgb(49, 49, 50);
+background-color: rgb(231, 182, 75); }
+  75% { color: rgb(49, 49, 50);
+background-color: rgb(219, 152, 51); }
+  100% { color: rgb(49, 49, 50);
+background-color: rgb(224, 135, 76); }
+}
+
+p {
+  animation: color-change 5s infinite;
+}
+
+li {
+    animation: color-change 5s infinite;
+}
+
+h1 {
+     animation: color-change 5s infinite;
+}
+
+h2 {
+     animation: color-change 5s infinite;
+}
+
+h3 {
+     animation: color-change 5s infinite;
+}
+
+h4 {
+     animation: color-change 5s infinite;
+}
+
